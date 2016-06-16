@@ -214,7 +214,7 @@ do
 		echo "$(tput setaf 1)---$(tput sgr0)"
 		echo "$(tput setaf 1)---$(tput sgr0) Option 'force' found!"
 		echo "$(tput setaf 1)---$(tput sgr0) Removing old Manifest before download new one"
-		rm -rf .repo/manifests .repo/manifests.git .repo/manifest.xml
+		rm -rf .repo/manifests .repo/manifests.git .repo/manifest.xml .repo/local_manifests/
 	fi
 
 	# Initialization of Android Tree
@@ -223,7 +223,6 @@ do
 	_if_fail_break "repo init -u git://github.com/"$_echo_custom_android"/android.git -b ${_custom_android} -g all,-notdefault,-darwin"
 
 	# Device manifest download
-	rm -rf .repo/local_manifests/
 	echo "$(tput setaf 1)---$(tput sgr0)"
 	echo "$(tput setaf 1)---$(tput sgr0) Downloading ${_device}_manifest.xml of branch $_custom_android"
 	_if_fail_break "curl -# --create-dirs -L -o .repo/local_manifests/${_device}_manifest.xml -O -L https://raw.github.com/${_github_place}/local_manifest/${_custom_android}/${_device}_manifest.xml"
