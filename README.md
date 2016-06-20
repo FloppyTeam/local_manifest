@@ -1,6 +1,6 @@
 Manifest for Android KitKat / CyanogenMod 11.0
 ====================================
-Project M4|L5 / Project U0|L7 / Project V1|L1II / Project Vee3|L3II
+Project M4|L5 / Project U0|L7
 
 ---
 
@@ -8,11 +8,11 @@ Automatic Way:
 
 script to download manifests, sync repo and build:
 
-    curl --create-dirs -L -o build.sh -O -L https://raw.github.com/FloppyTeam/local_manifest/cm-11.0/build.sh
+    curl --create-dirs -L -o build.sh -O -L https://raw.github.com/FloppyTeam/local_manifest/cm-11.0/repo_sync.sh
 
 To use:
 
-    source build.sh
+    . repo_sync.sh
 
 ---
 
@@ -24,19 +24,9 @@ To initialize CyanogenMod 11.0 Repo:
 
 ---
 
-To initialize MSM7x27a Manifest for all devices:
+To initialize Manifest for L5 and L7 devices:
 
     curl --create-dirs -L -o .repo/local_manifests/msm7x27a_manifest.xml -O -L https://raw.github.com/FloppyTeam/local_manifest/cm-11.0/msm7x27a_manifest.xml
-
----
-
-To initialize Manifest for L5/L7:
-
-    curl --create-dirs -L -o .repo/local_manifests/gen1_manifest.xml -O -L https://raw.github.com/FloppyTeam/local_manifest/cm-11.0/gen1_manifest.xml
-
----
-
-# Never use 'L5/L7' Manifest with 'L1II/L3II' Manifest
 
 ---
 
@@ -48,7 +38,7 @@ Sync the repo:
 
 Initialize the environment:
 
-    source build/envsetup.sh
+    . build/envsetup.sh
 
 ---
 
