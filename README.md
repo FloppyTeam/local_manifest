@@ -52,6 +52,13 @@ Initialize the environment:
 
 ---
 
+Make sure to apply pathces in device/lge/msm7x27a-common/patches
+Open terminal in that folder and run
+    
+    . apply.sh
+
+---
+
 To build for L5:
 
     brunch e610
