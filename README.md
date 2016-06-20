@@ -8,11 +8,12 @@ Automatic Way:
 
 script to download manifests, sync repo and build:
 
-    curl --create-dirs -L -o build.sh -O -L https://raw.github.com/FloppyTeam/local_manifest/cm-11.0/repo_sync.sh
+    curl --create-dirs -L -o build.sh -O -L https://raw.github.com/FloppyTeam/local_manifest/cm-11.0/download_manifests.sh
 
 To use:
 
-    . repo_sync.sh
+    . download_manifests.sh
+    repo sync
 
 ---
 
