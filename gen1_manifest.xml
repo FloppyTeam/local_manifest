@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 	<!-- Remote names -->
-	<remote name="thlg" fetch="https://github.com/TeamHackLG/" />
+	<remote name="floppy" fetch="https://github.com/FloppyTeam/" />
 	<!-- Project M4 -->
-	<project path="device/lge/e610" name="android_device_lge_e610" revision="cm-11.0" remote="thlg" />
+	<project path="device/lge/e610" name="android_device_lge_e610" revision="cm-11.0" remote="floppy" />
 	<!-- Project U0 -->
-	<project path="device/lge/p700" name="android_device_lge_p700" revision="cm-11.0" remote="thlg" />
+	<project path="device/lge/p700" name="android_device_lge_p700" revision="cm-11.0" remote="floppy" />
 </manifest>
