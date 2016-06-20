@@ -5,5 +5,3 @@ fi
 if ! [ -d .repo/manifests/ ]; then
       repo init -u git://github.com/CyanogenMod/android.git -b cm-11.0 -g all,-notdefault,-darwin
 fi
-
-repo sync -j16
