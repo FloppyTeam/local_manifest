@@ -4,35 +4,15 @@ Project M4|L5 / Project U0|L7
 
 ---
 
-Automatic Way:
+Repo Init
 
-script to download manifests, sync repo and build:
+script to download manifests:
 
     curl --create-dirs -L -o build.sh -O -L https://raw.github.com/FloppyTeam/local_manifest/cm-11.0/download_manifests.sh
 
-To use:
+How to use it to use it:
 
     . download_manifests.sh
-    repo sync
-
----
-
-Manual Way:
-
-To initialize CyanogenMod 11.0 Repo:
-
-    repo init -u git://github.com/CyanogenMod/android.git -b cm-11.0 -g all,-notdefault,-darwin
-
----
-
-To initialize Manifest for L5 and L7 devices:
-
-    curl --create-dirs -L -o .repo/local_manifests/msm7x27a_manifest.xml -O -L https://raw.github.com/FloppyTeam/local_manifest/cm-11.0/msm7x27a_manifest.xml
-
----
-
-Sync the repo:
-
     repo sync
 
 ---
