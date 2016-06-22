@@ -8,7 +8,7 @@ Repo Init
 
 script to download manifests:
 
-    curl --create-dirs -L -o download_manifests.sh -O -L https://raw.github.com/FloppyTeam/local_manifest/cm-11.0/download_manifests.sh
+    curl --create-dirs -L -o download_manifests.sh -O -L https://raw.github.com/FloppyTeam/manifest/cm-11.0/download_manifests.sh
 
 How to use it to use it:
 
