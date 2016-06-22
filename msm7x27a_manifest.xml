@@ -19,7 +19,7 @@
 	<project path="bootable/recovery-omni"     name="android_bootable_recovery"          revision="cm-11.0"            remote="floppy" />
 	
 	<!-- Common Project -->
-	<project path="kernel/lge/msm7x27a-common" name="lge-kernel-lproj"                   revision="android-msm-3.4-kk" remote="floppy" />
+	<project path="kernel/lge/msm7x27a-common" name="Skernel-KK-LP"                      revision="KK-LP"              remote="floppy" />
 	<project path="device/lge/msm7x27a-common" name="android_device_lge_msm7x27a-common" revision="cm-11.0"            remote="floppy" />
 	<project path="vendor/lge"                 name="proprietary_vendor_lge"             revision="cm-11.0"            remote="floppy" />
 
