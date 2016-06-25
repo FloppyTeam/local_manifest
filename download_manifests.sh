@@ -3,5 +3,5 @@ if ! [ -d .repo/local_manifests/ ]; then
 fi
 
 if ! [ -d .repo/manifests/ ]; then
-      repo init -u git://github.com/CyanogenMod/android.git -b cm-11.0 -g all,-notdefault,-darwin
+      repo init -u git://github.com/CyanogenMod/android.git -b cm-11.0
 fi
