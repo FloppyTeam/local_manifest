@@ -16,7 +16,7 @@
 	<project path="hardware/qcom/display-caf"  name="android_hardware_qcom_display-caf"  revision="cm-11.0"            remote="floppy" />
 	
 	<!-- TWRP -->
-	<project path="bootable/recovery-omni"     name="android_bootable_recovery"          revision="cm-11.0"            remote="floppy" />
+	<!--project path="bootable/recovery-omni"     name="android_bootable_recovery"          revision="cm-11.0"            remote="floppy" /-->
 	
 	<!-- Common Project -->
 	<project path="kernel/lge/SKernel"         name="Skernel-KK-LP"                      revision="KK-LP"              remote="floppy" />
